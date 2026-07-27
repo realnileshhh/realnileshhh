@@ -242,44 +242,71 @@ sessions with 3 industry professionals.
 
 <div align="center">
 
+### Contribution heatmap
+
+[![Contribution heatmap](https://ghchart.rshah.org/4ade80/realnileshhh)](https://github.com/realnileshhh)
+
+### Contribution activity
+
 [![Activity graph](https://github-readme-activity-graph.vercel.app/graph?username=realnileshhh&bg_color=080808&color=f0f0f0&line=4ade80&point=f0f0f0&area=true&hide_border=true&radius=8)](https://github.com/realnileshhh)
+
+### Stats, streak and languages
+
+[![Stats](https://github-readme-stats-eight-theta.vercel.app/api?username=realnileshhh&custom_title=GitHub+Statistics&show_icons=true&hide_border=true&bg_color=080808&title_color=f0f0f0&text_color=a0a0a0&icon_color=4ade80&rank_icon=github)](https://github.com/realnileshhh)
+[![Streak](https://streak-stats.demolab.com/?user=realnileshhh&hide_border=true&background=080808&stroke=1f1f23&ring=4ade80&fire=4ade80&currStreakLabel=f0f0f0&sideLabels=a0a0a0&dates=707070&currStreakNum=f0f0f0&sideNums=f0f0f0)](https://github.com/realnileshhh)
+
+[![Top languages](https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=realnileshhh&layout=compact&langs_count=8&custom_title=Most+Used+Languages&hide_border=true&bg_color=080808&title_color=f0f0f0&text_color=a0a0a0)](https://github.com/realnileshhh)
+[![Profile details](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=realnileshhh&theme=github_dark)](https://github.com/realnileshhh)
+
+### Breakdown
+
+[![Languages by repo](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=realnileshhh&theme=github_dark)](https://github.com/realnileshhh)
+[![Languages by commit](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=realnileshhh&theme=github_dark)](https://github.com/realnileshhh)
+
+[![Stats card](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=realnileshhh&theme=github_dark)](https://github.com/realnileshhh)
+[![Productive time](https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=realnileshhh&theme=github_dark&utcOffset=5.5)](https://github.com/realnileshhh)
+
+### At a glance
+
+[![Widgetbox](https://github-widgetbox.vercel.app/api/profile?username=realnileshhh&data=followers,repositories,stars,commits&theme=darkmode)](https://github.com/realnileshhh)
 
 </div>
 
-Most of what I build lives in private repos, so the graph above understates it.
-The portfolio site alone is 767 tests and CI on every push — it is just not public
-yet.
+<br />
 
-<!-- ─────────────────────────────────────────────────────────────────────────────
-     STAGED WIDGETS — do not uncomment until the two fixes below are done.
+> **On the numbers above.** Every repo I work in is private, including the
+> portfolio site — 767 tests, CI on every push, 30+ production deploys. GitHub does
+> not surface private contributions to third-party widgets unless the account opts
+> in, so these cards currently read lower than the work. Two settings fix that and
+> I would rather explain the gap than quietly crop the screenshot:
+> **Settings → Profile → "Include private contributions on my profile"**, and making
+> the portfolio repo public.
 
-     These four are the classic profile widgets. They work; the problem is what
-     they currently SAY. Measured today:
+<!-- Widget hosts rot constantly. State at time of writing, all checked with a
+     real user agent:
 
-       · streak-stats            "13 Total Contributions · Longest Streak 1"
-       · repos-per-language      "CSS · HTML · Python"   (old student repos)
-       · most-commit-language    "There are no commits to show"
-       · stats                   0 stars, 0 PRs, 0 issues
+       WORKING   ghchart.rshah.org ......................... heatmap, 366 cells
+       WORKING   github-readme-activity-graph.vercel.app ... line/area graph
+       WORKING   streak-stats.demolab.com .................. streak
+       WORKING   github-readme-stats-eight-theta.vercel.app  stats + top-langs
+       WORKING   github-profile-summary-cards.vercel.app ... 5 card types
+       WORKING   github-widgetbox.vercel.app ............... compact counters
+       WORKING   skillicons.dev, readme-typing-svg.demolab.com, komarev.com
 
-     None of that is true of the work, and all of it contradicts the README above,
-     which is worse than showing nothing. Two fixes, then uncomment:
+       DEAD      github-readme-stats.vercel.app ............ DEPLOYMENT_PAUSED
+       DEAD      github-readme-streak-stats.herokuapp.com .. host gone (Heroku)
+       DEAD      github-profile-trophy.vercel.app .......... HTTP 402
+       DEAD      visitcount.itsvg.in ....................... HTTP 404
+       DEAD      github-readme-stats.hackclub.dev .......... no API tokens
 
-     1. github.com/settings/profile → tick "Include private contributions on my
-        profile". The streak and activity graph immediately reflect the real
-        commit history instead of 13 public events.
-     2. Make realnileshhh/creative-director-portfolio public. Top-languages flips
-        to TypeScript-heavy, commit counts become real, and the CI badge and
-        screenshots in that repo's README start rendering too.
+     eight-theta is a community mirror of github-readme-stats, used because the
+     canonical host is paused. `custom_title` is required on it — without one the
+     card renders the literal string "undefined" as its heading.
 
-     Note also that github-readme-stats.vercel.app — the widget most profiles use,
-     and the one that used to be in this file — currently returns
-     DEPLOYMENT_PAUSED. github-profile-summary-cards below is a live replacement.
-
-[![Streak](https://streak-stats.demolab.com/?user=realnileshhh&theme=dark&hide_border=true&background=080808&ring=4ade80&fire=4ade80&currStreakLabel=f0f0f0)](https://github.com/realnileshhh)
-[![Languages by repo](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=realnileshhh&theme=github_dark)](https://github.com/realnileshhh)
-[![Languages by commit](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=realnileshhh&theme=github_dark)](https://github.com/realnileshhh)
-[![Stats](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=realnileshhh&theme=github_dark)](https://github.com/realnileshhh)
-───────────────────────────────────────────────────────────────────────────── -->
+     Not wired up: lowlighter/metrics, which renders the best isometric 3D
+     contribution calendar available. It needs a GitHub Action in this repo plus a
+     personal access token to read private contributions, so it is a deliberate
+     next step rather than something to paste in. -->
 
 <br />
 

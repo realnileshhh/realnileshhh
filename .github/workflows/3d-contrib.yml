@@ -1,0 +1,53 @@
+# Generates a 3D isometric contribution calendar and commits the SVGs into this
+# repo, under profile-3d-contrib/.
+#
+# Why generate rather than hotlink a third-party widget: the README embeds the
+# result from THIS repository, so GitHub serves it directly. Every hotlinked
+# widget goes through GitHub's camo image proxy, which gives up on a slow
+# upstream and then caches the failure — which is exactly why the streak card
+# renders as a broken image on and off. A committed SVG cannot fail that way.
+#
+# Token: secrets.GITHUB_TOKEN covers PUBLIC contributions and needs no setup. To
+# include private contributions (which is most of the real work here) two things
+# are required, and only the account owner can do them:
+#   1. github.com/settings/profile -> "Include private contributions on my profile"
+#   2. a classic PAT with `read:user`, saved as a repo secret, swapped in below
+#      for GITHUB_TOKEN
+name: 3D contribution calendar
+
+on:
+  schedule:
+    # 18:00 UTC daily = 23:30 IST. Cron here is best-effort; GitHub delays
+    # scheduled runs under load, which is fine for a once-a-day image.
+    - cron: '0 18 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: generate
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: yoshi389111/github-profile-3d-contrib@latest
+        env:
+          # Swap to ${{ secrets.PROFILE_TOKEN }} once a PAT exists, per the note
+          # at the top of this file.
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name  'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+          git add -A profile-3d-contrib
+          # No-op on days with no change, so this does not churn the history.
+          if git diff --cached --quiet; then
+            echo 'No change to the calendar today.'
+          else
+            git commit -m 'chore: regenerate 3D contribution calendar'
+            git push
+          fi

@@ -242,28 +242,23 @@ sessions with 3 industry professionals.
 
 <div align="center">
 
-### Contribution heatmap
+### Contribution calendar
+
+[![3D contribution calendar](./profile-3d-contrib/profile-night-green.svg)](https://github.com/realnileshhh)
 
 [![Contribution heatmap](https://ghchart.rshah.org/4ade80/realnileshhh)](https://github.com/realnileshhh)
 
-### Contribution activity
-
 [![Activity graph](https://github-readme-activity-graph.vercel.app/graph?username=realnileshhh&bg_color=080808&color=f0f0f0&line=4ade80&point=f0f0f0&area=true&hide_border=true&radius=8)](https://github.com/realnileshhh)
 
-### Stats, streak and languages
+### Stats and languages
 
 [![Stats](https://github-readme-stats-eight-theta.vercel.app/api?username=realnileshhh&custom_title=GitHub+Statistics&show_icons=true&hide_border=true&bg_color=080808&title_color=f0f0f0&text_color=a0a0a0&icon_color=4ade80&rank_icon=github)](https://github.com/realnileshhh)
-[![Streak](https://streak-stats.demolab.com/?user=realnileshhh&hide_border=true&background=080808&stroke=1f1f23&ring=4ade80&fire=4ade80&currStreakLabel=f0f0f0&sideLabels=a0a0a0&dates=707070&currStreakNum=f0f0f0&sideNums=f0f0f0)](https://github.com/realnileshhh)
-
-[![Top languages](https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=realnileshhh&layout=compact&langs_count=8&custom_title=Most+Used+Languages&hide_border=true&bg_color=080808&title_color=f0f0f0&text_color=a0a0a0)](https://github.com/realnileshhh)
 [![Profile details](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=realnileshhh&theme=github_dark)](https://github.com/realnileshhh)
 
-### Breakdown
-
+[![Top languages](https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=realnileshhh&layout=compact&langs_count=8&custom_title=Most+Used+Languages&hide_border=true&bg_color=080808&title_color=f0f0f0&text_color=a0a0a0)](https://github.com/realnileshhh)
 [![Languages by repo](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=realnileshhh&theme=github_dark)](https://github.com/realnileshhh)
-[![Languages by commit](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=realnileshhh&theme=github_dark)](https://github.com/realnileshhh)
 
-[![Stats card](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=realnileshhh&theme=github_dark)](https://github.com/realnileshhh)
+[![Languages by commit](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=realnileshhh&theme=github_dark)](https://github.com/realnileshhh)
 [![Productive time](https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=realnileshhh&theme=github_dark&utcOffset=5.5)](https://github.com/realnileshhh)
 
 ### At a glance
@@ -274,39 +269,51 @@ sessions with 3 industry professionals.
 
 <br />
 
-> **On the numbers above.** Every repo I work in is private, including the
-> portfolio site — 767 tests, CI on every push, 30+ production deploys. GitHub does
-> not surface private contributions to third-party widgets unless the account opts
-> in, so these cards currently read lower than the work. Two settings fix that and
-> I would rather explain the gap than quietly crop the screenshot:
-> **Settings → Profile → "Include private contributions on my profile"**, and making
-> the portfolio repo public.
+> **Why the language cards and the calendar disagree.** The calendar is right:
+> **178 contributions**, of which **174 are private**. The language and star cards
+> read from *public repositories* only, and mine are old student projects — so they
+> say CSS and HTML while the actual work is TypeScript, React and Next.js behind a
+> private repo. Making that repo public is what reconciles the two.
 
-<!-- Widget hosts rot constantly. State at time of writing, all checked with a
-     real user agent:
+<!-- Widget hosts rot, and the ones that stay up can still lie. Notes for the next
+     person, all measured with a real user agent:
 
-       WORKING   ghchart.rshah.org ......................... heatmap, 366 cells
-       WORKING   github-readme-activity-graph.vercel.app ... line/area graph
-       WORKING   streak-stats.demolab.com .................. streak
-       WORKING   github-readme-stats-eight-theta.vercel.app  stats + top-langs
-       WORKING   github-profile-summary-cards.vercel.app ... 5 card types
-       WORKING   github-widgetbox.vercel.app ............... compact counters
-       WORKING   skillicons.dev, readme-typing-svg.demolab.com, komarev.com
+     THE CALENDAR IS GENERATED, NOT HOTLINKED
+       profile-3d-contrib/*.svg is built by .github/workflows/3d-contrib.yml and
+       committed here, so GitHub serves it directly. Every hotlinked widget goes
+       through GitHub's camo proxy, which abandons a slow upstream and then caches
+       the failure. That is not hypothetical: streak-stats.demolab.com answers
+       anywhere between 0.65s and 7.6s on identical requests, and the slow ones
+       came back as a broken image that stayed broken.
 
-       DEAD      github-readme-stats.vercel.app ............ DEPLOYMENT_PAUSED
-       DEAD      github-readme-streak-stats.herokuapp.com .. host gone (Heroku)
-       DEAD      github-profile-trophy.vercel.app .......... HTTP 402
-       DEAD      visitcount.itsvg.in ....................... HTTP 404
-       DEAD      github-readme-stats.hackclub.dev .......... no API tokens
+     REMOVED: streak-stats.demolab.com
+       Two independent reasons. It is the flaky host above, and it reported
+       "13 Total Contributions" when the GraphQL API reports 178
+       (restrictedContributionsCount 174). Wrong and unreliable.
 
-     eight-theta is a community mirror of github-readme-stats, used because the
-     canonical host is paused. `custom_title` is required on it — without one the
-     card renders the literal string "undefined" as its heading.
+     WORKING   ./profile-3d-contrib ...................... generated in-repo
+     WORKING   ghchart.rshah.org ......................... flat heatmap, 366 cells
+     WORKING   github-readme-activity-graph.vercel.app ... line/area
+     WORKING   github-readme-stats-eight-theta.vercel.app  stats + top-langs
+     WORKING   github-profile-summary-cards.vercel.app ... 4 card types used
+     WORKING   github-widgetbox.vercel.app ............... counters
+     WORKING   skillicons.dev, readme-typing-svg.demolab.com, komarev.com
 
-     Not wired up: lowlighter/metrics, which renders the best isometric 3D
-     contribution calendar available. It needs a GitHub Action in this repo plus a
-     personal access token to read private contributions, so it is a deliberate
-     next step rather than something to paste in. -->
+     DEAD      github-readme-stats.vercel.app ............ DEPLOYMENT_PAUSED
+     DEAD      github-readme-streak-stats.herokuapp.com .. host gone with Heroku
+     DEAD      github-profile-trophy.vercel.app .......... HTTP 402
+     DEAD      visitcount.itsvg.in ....................... HTTP 404
+     DEAD      github-readme-stats.hackclub.dev .......... "No GitHub API tokens"
+     DEAD      green-wall.leoku.dev ...................... HTTP 404
+
+     eight-theta is a community mirror, used because the canonical host is paused.
+     `custom_title` is mandatory on it — without one it prints the literal string
+     "undefined" as the card heading.
+
+     The 3D calendar currently runs on GITHUB_TOKEN and still shows the private
+     contributions, because "Include private contributions on my profile" is
+     already enabled on the account. A read:user PAT would only matter if that
+     setting were turned off. -->
 
 <br />
 

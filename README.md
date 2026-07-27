@@ -2,7 +2,7 @@
 
 # Nilesh Chaturvedi
 
-**From concept to culture.**
+[![Typing](https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&size=20&duration=3200&pause=900&color=A0A0A0&center=true&vCenter=true&width=620&height=42&lines=From+concept+to+culture.;Figma+to+deployed+React.;Retention+is+the+craft.)](https://nileshchaturvedi.com)
 
 Creative designer who ships the frontend too — Figma to deployed React.
 
@@ -12,6 +12,7 @@ Creative designer who ships the frontend too — Figma to deployed React.
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-realnileshhh-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/realnileshhh)
 [![Behance](https://img.shields.io/badge/Behance-realnileshhh-1769FF?style=flat-square&logo=behance&logoColor=white)](https://behance.net/realnileshhh)
 [![Email](https://img.shields.io/badge/Email-realnileshhh@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:realnileshhh@gmail.com)
+[![Profile views](https://komarev.com/ghpvc/?username=realnileshhh&style=flat-square&color=4ade80&label=profile+views)](https://github.com/realnileshhh)
 
 </div>
 
@@ -106,6 +107,24 @@ Each one attached to a shipped piece of work.
 ---
 
 ## Skills
+
+<div align="center">
+
+**Design**
+
+[![Design](https://skillicons.dev/icons?i=figma,ps,ai,ae,pr&theme=dark)](https://skillicons.dev)
+
+**Design engineering**
+
+[![Engineering](https://skillicons.dev/icons?i=react,ts,js,nextjs,tailwind,html,css&theme=dark)](https://skillicons.dev)
+
+**Also**
+
+[![Tooling](https://skillicons.dev/icons?i=swift,py,git,github,vercel,netlify&theme=dark)](https://skillicons.dev)
+
+</div>
+
+<br />
 
 **Product & UI Design**
 Figma · UI/UX Design · Prototyping · Design Systems · Wireframing · Responsive Layouts
@@ -214,6 +233,53 @@ Tridip Nandi.
 **Technical Head** — GeeksforGeeks Student Chapter, UEM Kolkata · `Sep 2023 – Oct 2024`
 Organised **5 coding and design workshops** for **200+ students**, coordinating
 sessions with 3 industry professionals.
+
+<br />
+
+---
+
+## GitHub
+
+<div align="center">
+
+[![Activity graph](https://github-readme-activity-graph.vercel.app/graph?username=realnileshhh&bg_color=080808&color=f0f0f0&line=4ade80&point=f0f0f0&area=true&hide_border=true&radius=8)](https://github.com/realnileshhh)
+
+</div>
+
+Most of what I build lives in private repos, so the graph above understates it.
+The portfolio site alone is 767 tests and CI on every push — it is just not public
+yet.
+
+<!-- ─────────────────────────────────────────────────────────────────────────────
+     STAGED WIDGETS — do not uncomment until the two fixes below are done.
+
+     These four are the classic profile widgets. They work; the problem is what
+     they currently SAY. Measured today:
+
+       · streak-stats            "13 Total Contributions · Longest Streak 1"
+       · repos-per-language      "CSS · HTML · Python"   (old student repos)
+       · most-commit-language    "There are no commits to show"
+       · stats                   0 stars, 0 PRs, 0 issues
+
+     None of that is true of the work, and all of it contradicts the README above,
+     which is worse than showing nothing. Two fixes, then uncomment:
+
+     1. github.com/settings/profile → tick "Include private contributions on my
+        profile". The streak and activity graph immediately reflect the real
+        commit history instead of 13 public events.
+     2. Make realnileshhh/creative-director-portfolio public. Top-languages flips
+        to TypeScript-heavy, commit counts become real, and the CI badge and
+        screenshots in that repo's README start rendering too.
+
+     Note also that github-readme-stats.vercel.app — the widget most profiles use,
+     and the one that used to be in this file — currently returns
+     DEPLOYMENT_PAUSED. github-profile-summary-cards below is a live replacement.
+
+[![Streak](https://streak-stats.demolab.com/?user=realnileshhh&theme=dark&hide_border=true&background=080808&ring=4ade80&fire=4ade80&currStreakLabel=f0f0f0)](https://github.com/realnileshhh)
+[![Languages by repo](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=realnileshhh&theme=github_dark)](https://github.com/realnileshhh)
+[![Languages by commit](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=realnileshhh&theme=github_dark)](https://github.com/realnileshhh)
+[![Stats](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=realnileshhh&theme=github_dark)](https://github.com/realnileshhh)
+───────────────────────────────────────────────────────────────────────────── -->
 
 <br />
 
